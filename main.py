@@ -180,7 +180,7 @@ class Phone(QWidget):
 
         # LOCK SCREEN
         self.lock = QLabel(self)
-        self.lock.setPixmap(QPixmap(os.path.join(ASSETS, "lock.png")))
+        self.lock.setPixmap(QPixmap(os.path.join(ASSETS, "lock.jpg")))
         self.lock.setScaledContents(True)
         self.lock.setGeometry(0, 0, WIDTH, HEIGHT)
 
@@ -201,7 +201,7 @@ class Phone(QWidget):
 
         # HOME SCREEN
         self.home = QLabel(self)
-        self.home.setPixmap(QPixmap(os.path.join(ASSETS, "home.png")))
+        self.home.setPixmap(QPixmap(os.path.join(ASSETS, "home.jpg")))
         self.home.setScaledContents(True)
         self.home.setGeometry(0, HEIGHT, WIDTH, HEIGHT)
 
